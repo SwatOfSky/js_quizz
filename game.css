@@ -1,0 +1,70 @@
+body{
+    color: #fff;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 4px;
+    background: #2A2AD1;
+    font-size: 30px;
+    min-width: 980px;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 24px 0 #4844FF;
+    transform: scale(1.02);
+    transform: 100ms;
+}
+
+.choise-prefix{
+    padding: 32px 38px;
+    color: #fff;
+}
+
+.choice-text{
+    padding: 32px;
+    width: 100%;
+}
+
+.correct{
+    background: linear-gradient(32deg, #23D654 0%, #49F254 100%);
+}
+
+.incorrect{
+    background: linear-gradient(32deg, #AD1305 0%, #FF2E1F 100%);
+}
+
+/*hud */
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 32px;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 320px;
+    height: 40px;
+    border: 4px solid #00F50C;
+    margin-top: 32px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull{
+    height: 100%;
+    background: #00F50C;
+    width: 0%;
+}
